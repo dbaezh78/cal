@@ -1,7 +1,7 @@
 // Función para abrir la carpeta del día
 function openDayFolder(year, month, day) {
     // Construir la ruta de la carpeta
-    const folderPath = `/lab/cal/${String(month).padStart(2, '0')}/${String(day).padStart(2, '0')}/`;
+    const folderPath = `/cal/${String(month).padStart(2, '0')}/${String(day).padStart(2, '0')}/`;
     console.log("Ruta de la carpeta:", folderPath);
 
     // Cargar la URL en el iframe
@@ -76,7 +76,7 @@ function openDayFolder(year, month, day) {
 	// Función para abrir la carpeta del día
 	function openDayFolder(year, month, day) {
 		// Construir la ruta de la carpeta
-		const folderPath = `/lab/cal/${String(month).padStart(2, '0')}/${String(day).padStart(2, '0')}/`;
+		const folderPath = `/cal/${String(month).padStart(2, '0')}/${String(day).padStart(2, '0')}/`;
 		console.log("Ruta de la carpeta:", folderPath);
 
 		// Cargar la URL en el iframe
@@ -120,7 +120,7 @@ function openDayFolder(year, month, day) {
 
 	function openDayFolder(year, month, day) {
 		// Construir la ruta de la carpeta
-		const folderPath = `/lab/cal/${String(month).padStart(2, '0')}/${String(day).padStart(2, '0')}/`;
+		const folderPath = `/cal/${String(month).padStart(2, '0')}/${String(day).padStart(2, '0')}/`;
 		console.log("Ruta de la carpeta:", folderPath);
 	
 		// Cargar la URL en el iframe
